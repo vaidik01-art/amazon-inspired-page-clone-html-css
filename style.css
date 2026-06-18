@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  background-color: #E3E6E6;
+}
+#amazon{
+  width: 30px;
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  background-color: white;
+}
+#links {
+  background-color: rgba(0, 0, 0, 1);
+  height: 40px;
+  font-size: 20px;
+  padding: 2px;
+}
+li {
+  display: inline;
+  margin-right: 160px;
+  background-color: rgba(0, 0, 0, 1);
+}
+b{
+  background-color: white;
+}
+ul {
+  background-color: rgba(0, 0, 0, 1);
+}
+.top {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+}
+input {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+}
+button {
+  background-color: #F3A847;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+}
+#amazon {
+  color: darkgoldenrod;
+}
+#back {
+  max-width: 100%;
+  height: auto;
+}
+.div1 {
+  height: 420px;
+  width: 400px;
+  background-color: white;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.hr1 {
+  border: none;               
+  height: 10px;   
+  width: 400px;             
+  background-color: #ffffff;  
+  border-radius: 200px;   
+}
+#appliances {
+  text-decoration: none;
+  background-color: white;
+  margin-left: 20px;
+}
+.app {
+  height: 160px;
+  width: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+#name {
+  margin-left: 20px;
+  background-color: white;
+}
+.div2 {
+  height: 420px;
+  width: 400px;
+  background-color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius:10px;
+}
+#homessential {
+  text-decoration: none;
+  background-color: white;
+  margin-left: 20px;
+}
+#tops{
+  display: block;
+  text-align: center;
+  background-color: rgb(55, 71, 90);
+  color: aliceblue;
+  font-size: large;
+  height: 30px;
+}
+#foot{
+  text-decoration: none;
+  background-color:#124E78;
+  display: inline-block;
+  margin-left:110px;
+  margin-right: 109px;
+  margin-top: 30px;
+  margin-bottom:20px ;
+}
+.foot{
+  display: block;
+  color: white;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  height: 27px;
+  background-color:#124E78 ;
+
+}
+footer{
+  background-color: #124E78;
+  text-align: justify;
+}
+#privacy{
+  color: white;
+  background-color: #131A22;
+  display: block;
+  text-align: center;
+}
+::placeholder{
+  text-align: justify;
+}
