@@ -16,10 +16,12 @@
         <li><a href="home" class="top">Home</a></li>
         <li><a href="account" class="top">Account</a></li>
         <li><a href="cart" class="top"> Cart</a></li>
+        <li><a href="order" class="top"> Your Orders</a></li>
         <li>
           <input type="search" placeholder="Search on amazon.in" /><button
             type="submit"
             width="20px"
+            aria-label="search"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="search">
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -34,7 +36,8 @@
       <img
         src="a.jpg"
         alt="product"
-        id="back"
+        id="back" 
+        loading="eager" fetchpriority="high"
       /></a>
       <div class="div1">
         <a href="homeapp" id="appliances"
@@ -74,6 +77,17 @@
         </a>
         <hr class="hr1">
       </div>
+      <div class="div2">
+        <a href="cash" id="homessential"> <b>Bulk order discounts + 10% Guaranteed cashback</b><br><br>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/2_186_116_1605._SY116_CB763080337_.jpg" alt="electronics" class="app">
+        <div id="name">Electronics and Accessories</div></a>
+        <hr class="hr1">
+        <a href="light">
+          <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/3_186_116_1605._SY116_CB763080337_.jpg" alt="fan" class="app">
+          <div id="name">Fan</div>
+        </a>
+        <hr class="hr1">
+      </div>
       <br>
       <div class="div2">
         <a href="headphone" id="homessential"> <b>Up to 75% off | Deals on headphones </b><br><br>
@@ -105,6 +119,17 @@
         <a href="tyre">
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg" alt="tyre" class="app">
           <div id="name">Tyre & rim care</div>
+        </a>
+        <hr class="hr1">
+      </div>
+      <div class="div2">
+        <a href="shoe1" id="homessential"> <b>Shoes</b><br><br>
+        <img src="https://m.media-amazon.com/images/I/81XlIoVdx2L._AC_SY145_.jpg" alt="shoe1" class="app">
+        <div id="name">Adidas</div></a>
+        <hr class="hr1">
+        <a href="shoe2">
+          <img src="https://m.media-amazon.com/images/I/812vmmHIwvL._AC_SY145_.jpg" alt="light" class="app">
+          <div id="name">Spark</div>
         </a>
         <hr class="hr1">
       </div>
