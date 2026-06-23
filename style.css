@@ -51,6 +51,12 @@ button {
   height: 30px;
   border-radius: 10px;
 }
+button:hover{
+  background-color: lightgreen;
+}
+button:active{
+  background-color: green;
+}
 #search{
   background-color: #F3A847;
 }
@@ -81,9 +87,6 @@ button {
   text-decoration: none;
   background-color: white;
   margin-left: 20px;
-}
-img{
-  loading
 }
 .app {
   height: 160px;
