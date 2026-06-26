@@ -13,6 +13,11 @@
   display:block;
   position: fixed;
 }
+nav{
+  position: sticky;  /* Acts normal until it reaches the threshold */
+  top: 0;            /* The point where the navbar locks into place */
+  z-index: 1000;
+}
 a {
   text-decoration: none;
   background-color: white;
@@ -23,10 +28,13 @@ nav ul li a:hover{
   padding: 4px;
 }
 #links {
+  display: flex;
   background-color: rgba(0, 0, 0, 1);
-  height: 40px;
+  height: 60px;
   font-size: 20px;
   padding: 2px;
+  align-items: center;
+  align-content: center;
 }
 li {
   display: inline;
@@ -46,7 +54,7 @@ ul {
 }
 input {
   background-color: white;
-  width: 300px;
+  width: 500px;
   height: 30px;
   border-radius: 10px;
 }
@@ -59,7 +67,6 @@ button {
 i{
   background-color: #F3A847;
   color: white;
-  align-self: center;
 }
 i:hover{
   background-color: lightgreen;
