@@ -14,9 +14,16 @@
   position: fixed;
 }
 nav{
-  position: sticky;  /* Acts normal until it reaches the threshold */
-  top: 0;            /* The point where the navbar locks into place */
+  position: sticky;  
+  top: 0;
   z-index: 1000;
+}
+.fa-amazon{
+  display: flex;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -103,12 +110,11 @@ button:active{
   display: inline-block;
   border-radius: 10px;
 }
-.hr1 {
-  border: none;               
-  height: 10px;   
-  width: 400px;             
-  background-color: #ffffff;  
-  border-radius: 200px;   
+img{
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  align-self: center;
 }
 #appliances {
   text-decoration: none;
@@ -125,6 +131,13 @@ button:active{
 #name {
   margin-left: 20px;
   background-color: white;
+}
+#name1{
+  display: flex;
+  margin-left: 20px;
+  background-color: white;
+  width : 360px;
+  height: 20px;
 }
 .div2 {
   height: 420px;
